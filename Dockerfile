@@ -24,9 +24,9 @@ RUN mkdir .android && \
     apt-get install --no-install-recommends -y --allow-unauthenticated build-essential git ruby-full && \
     gem install rake && \
     gem install fastlane && \
-    gem install bundler && \
-    bundle update --bundler && \
+    gem install bundler && \ 
 # Clean up
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
 apt-get autoremove -y && \
 apt-get clean
+RUN bundle update --bundler
