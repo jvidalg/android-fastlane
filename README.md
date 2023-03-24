@@ -1,6 +1,6 @@
 # docker-android-fastlane
-[![Docker Pulls](https://img.shields.io/docker/pulls/softartdev/android-fastlane)](https://hub.docker.com/repository/docker/softartdev/android-fastlane)
-[![Build and publish to DockerHub](https://github.com/softartdev/docker-android-fastlane/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/softartdev/docker-android-fastlane/actions/workflows/docker-publish.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jvidalg/fastlane-android)](https://hub.docker.com/repository/docker/jvidalg/fastlane-android)
+[![Build and publish to DockerHub](https://github.com/jvidalg/android-fastlane/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/jvidalg/android-fastlane/actions/workflows/docker-publish.yml)
 
 You can use this image on such CI/CD like Bitbucket/GitLab/etc, which uses docker containers.
 
