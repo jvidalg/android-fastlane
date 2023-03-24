@@ -25,6 +25,7 @@ RUN mkdir .android && \
     gem install rake && \
     gem install fastlane && \
     gem install bundler && \
+    bundle update --bundler && \
 # Clean up
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
 apt-get autoremove -y && \
