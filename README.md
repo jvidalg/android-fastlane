@@ -6,7 +6,7 @@ You can use this image on such CI/CD like Bitbucket/GitLab/etc, which uses docke
 
 Example for bitbucket-pipelines.yml file:
 ```
-image: jvidal22/fastlane-android
+image: jvidalg/fastlane-android
 
 pipelines:
   default:
